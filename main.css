@@ -1,0 +1,82 @@
+
+html {
+    background-color: grey;
+}
+
+.row {
+    margin-left: 0px;
+}
+
+.main-heading {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    color: white; 
+}
+
+#content {
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 650px;
+    padding-bottom: 650px;
+}
+
+#parallaxcloud {
+    position: fixed;
+    background: url("./images/cloud2.png") no-repeat 0px -100px;
+    width: 100%;
+    height: 600px;
+    opacity: 0.8;
+}
+
+#parallaxcloud2 {
+    position: fixed;
+    background: url("./images/cloud3.png") no-repeat 0px 150px;
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    margin-left: 35%;
+}
+
+#parallaxcloud3 {
+    position: fixed;
+    background: url("./images/cloud3.png") no-repeat 0px 50px;
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    margin-left: 0%;
+}
+
+#parallax1 {
+    position: fixed;
+    background: url("./images/mountains.png") no-repeat 0px 150px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+#parallax2 {
+    position: fixed;
+    background: url("./images/mountains2.png") no-repeat 0px 100px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+#parallax3 {
+    position: fixed;
+    background: url("./images/mountains.png") no-repeat 0px 400px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+i {
+    color: white;
+}
